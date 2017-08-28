@@ -13,6 +13,8 @@
 		2C075C7D1F5340C900E15692 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C075C7C1F5340C900E15692 /* Assets.xcassets */; };
 		2C075C801F5340C900E15692 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C075C7E1F5340C900E15692 /* LaunchScreen.storyboard */; };
 		2C9437A81F54C67F00BE16FF /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9437A71F54C67F00BE16FF /* BaseViewController.swift */; };
+		2CD583A11F54CB1C0013621A /* HomeTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD583A01F54CB1C0013621A /* HomeTabBarViewController.swift */; };
+		2CD583A31F54CB610013621A /* BaseTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD583A21F54CB610013621A /* BaseTabBarViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		2C075C7F1F5340C900E15692 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2C075C811F5340C900E15692 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2C9437A71F54C67F00BE16FF /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		2CD583A01F54CB1C0013621A /* HomeTabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTabBarViewController.swift; sourceTree = "<group>"; };
+		2CD583A21F54CB610013621A /* BaseTabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTabBarViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +60,123 @@
 		2C075C741F5340C900E15692 /* StarkillerStore */ = {
 			isa = PBXGroup;
 			children = (
-				2C075C751F5340C900E15692 /* AppDelegate.swift */,
-				2C075C7C1F5340C900E15692 /* Assets.xcassets */,
-				2C9437A71F54C67F00BE16FF /* BaseViewController.swift */,
-				2C075C811F5340C900E15692 /* Info.plist */,
-				2C075C7E1F5340C900E15692 /* LaunchScreen.storyboard */,
-				2C075C791F5340C900E15692 /* Main.storyboard */,
-				2C075C771F5340C900E15692 /* ViewController.swift */,
+				2CD583951F54C9550013621A /* Resources */,
+				2CD583941F54C94F0013621A /* Source Code */,
+				2CD583961F54C95B0013621A /* Supporting Files */,
 			);
 			path = StarkillerStore;
+			sourceTree = "<group>";
+		};
+		2CD583921F54C8D90013621A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2CD5839E1F54C9D90013621A /* Base */,
+				2CD5839F1F54CAF20013621A /* Home */,
+				2C075C771F5340C900E15692 /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		2CD583941F54C94F0013621A /* Source Code */ = {
+			isa = PBXGroup;
+			children = (
+				2CD583921F54C8D90013621A /* Controllers */,
+				2CD5839A1F54C9990013621A /* Models */,
+				2CD5839C1F54C9A30013621A /* Services */,
+				2CD5839D1F54C9A90013621A /* Utils */,
+				2CD5839B1F54C99D0013621A /* ViewModels */,
+				2C075C751F5340C900E15692 /* AppDelegate.swift */,
+			);
+			path = "Source Code";
+			sourceTree = "<group>";
+		};
+		2CD583951F54C9550013621A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2CD583971F54C9670013621A /* Images */,
+				2CD583981F54C96D0013621A /* Storyboards */,
+				2CD583991F54C9830013621A /* Xibs */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		2CD583961F54C95B0013621A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2C075C811F5340C900E15692 /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2CD583971F54C9670013621A /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				2C075C7C1F5340C900E15692 /* Assets.xcassets */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		2CD583981F54C96D0013621A /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				2C075C7E1F5340C900E15692 /* LaunchScreen.storyboard */,
+				2C075C791F5340C900E15692 /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		2CD583991F54C9830013621A /* Xibs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Xibs;
+			sourceTree = "<group>";
+		};
+		2CD5839A1F54C9990013621A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2CD5839B1F54C99D0013621A /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		2CD5839C1F54C9A30013621A /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		2CD5839D1F54C9A90013621A /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		2CD5839E1F54C9D90013621A /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				2CD583A21F54CB610013621A /* BaseTabBarViewController.swift */,
+				2C9437A71F54C67F00BE16FF /* BaseViewController.swift */,
+			);
+			name = Base;
+			path = Base;
+			sourceTree = "<group>";
+		};
+		2CD5839F1F54CAF20013621A /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				2CD583A01F54CB1C0013621A /* HomeTabBarViewController.swift */,
+			);
+			name = Home;
+			path = Home;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,7 +252,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				2C075C781F5340C900E15692 /* ViewController.swift in Sources */,
+				2CD583A11F54CB1C0013621A /* HomeTabBarViewController.swift in Sources */,
 				2C075C761F5340C900E15692 /* AppDelegate.swift in Sources */,
+				2CD583A31F54CB610013621A /* BaseTabBarViewController.swift in Sources */,
 				2C9437A81F54C67F00BE16FF /* BaseViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -269,7 +383,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = HATQPXT843;
-				INFOPLIST_FILE = StarkillerStore/Info.plist;
+				INFOPLIST_FILE = "StarkillerStore/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bferrari.StarkillerStore;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -282,7 +396,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = HATQPXT843;
-				INFOPLIST_FILE = StarkillerStore/Info.plist;
+				INFOPLIST_FILE = "StarkillerStore/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bferrari.StarkillerStore;
 				PRODUCT_NAME = "$(TARGET_NAME)";
