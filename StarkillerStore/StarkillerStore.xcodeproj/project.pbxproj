@@ -22,6 +22,9 @@
 		2CAD6A4A1F558CF2001F3E69 /* SDWebImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CAD6A411F558CF2001F3E69 /* SDWebImage.framework */; };
 		2CAD6A4B1F558CF2001F3E69 /* SVProgressHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CAD6A421F558CF2001F3E69 /* SVProgressHUD.framework */; };
 		2CAD6A4C1F558CF2001F3E69 /* Unbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CAD6A431F558CF2001F3E69 /* Unbox.framework */; };
+		2CAD6A4F1F558DAF001F3E69 /* StoreService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CAD6A4E1F558DAF001F3E69 /* StoreService.swift */; };
+		2CAD6A511F558E59001F3E69 /* StoreAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CAD6A501F558E59001F3E69 /* StoreAPI.swift */; };
+		2CAD6A531F55924A001F3E69 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CAD6A521F55924A001F3E69 /* Product.swift */; };
 		2CD583A11F54CB1C0013621A /* HomeTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD583A01F54CB1C0013621A /* HomeTabBarViewController.swift */; };
 		2CD583A31F54CB610013621A /* BaseTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD583A21F54CB610013621A /* BaseTabBarViewController.swift */; };
 /* End PBXBuildFile section */
@@ -44,6 +47,9 @@
 		2CAD6A411F558CF2001F3E69 /* SDWebImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDWebImage.framework; path = Carthage/Build/iOS/SDWebImage.framework; sourceTree = "<group>"; };
 		2CAD6A421F558CF2001F3E69 /* SVProgressHUD.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SVProgressHUD.framework; path = Carthage/Build/iOS/SVProgressHUD.framework; sourceTree = "<group>"; };
 		2CAD6A431F558CF2001F3E69 /* Unbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Unbox.framework; path = Carthage/Build/iOS/Unbox.framework; sourceTree = "<group>"; };
+		2CAD6A4E1F558DAF001F3E69 /* StoreService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StoreService.swift; path = StoreService.swift; sourceTree = "<group>"; };
+		2CAD6A501F558E59001F3E69 /* StoreAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StoreAPI.swift; path = StoreAPI.swift; sourceTree = "<group>"; };
+		2CAD6A521F55924A001F3E69 /* Product.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Product.swift; path = Product.swift; sourceTree = "<group>"; };
 		2CD583A01F54CB1C0013621A /* HomeTabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTabBarViewController.swift; sourceTree = "<group>"; };
 		2CD583A21F54CB610013621A /* BaseTabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTabBarViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -179,6 +185,7 @@
 		2CD5839A1F54C9990013621A /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				2CAD6A521F55924A001F3E69 /* Product.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -193,6 +200,8 @@
 		2CD5839C1F54C9A30013621A /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				2CAD6A501F558E59001F3E69 /* StoreAPI.swift */,
+				2CAD6A4E1F558DAF001F3E69 /* StoreService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -321,10 +330,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				2C075C781F5340C900E15692 /* ViewController.swift in Sources */,
+				2CAD6A531F55924A001F3E69 /* Product.swift in Sources */,
 				2CD583A11F54CB1C0013621A /* HomeTabBarViewController.swift in Sources */,
 				2C075C761F5340C900E15692 /* AppDelegate.swift in Sources */,
 				2CD583A31F54CB610013621A /* BaseTabBarViewController.swift in Sources */,
 				2C9437A81F54C67F00BE16FF /* BaseViewController.swift in Sources */,
+				2CAD6A4F1F558DAF001F3E69 /* StoreService.swift in Sources */,
+				2CAD6A511F558E59001F3E69 /* StoreAPI.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

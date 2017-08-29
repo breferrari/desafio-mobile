@@ -51,7 +51,7 @@
         <!--Products-->
         <scene sceneID="2zD-qi-VU7">
             <objects>
-                <viewController id="JnH-Tg-uiR" sceneMemberID="viewController">
+                <viewController id="JnH-Tg-uiR" customClass="ViewController" customModule="StarkillerStore" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="zx5-Sg-z3W"/>
                         <viewControllerLayoutGuide type="bottom" id="pzb-Bh-E8H"/>
