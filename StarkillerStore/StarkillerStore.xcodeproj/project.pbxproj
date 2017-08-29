@@ -13,6 +13,15 @@
 		2C075C7D1F5340C900E15692 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C075C7C1F5340C900E15692 /* Assets.xcassets */; };
 		2C075C801F5340C900E15692 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C075C7E1F5340C900E15692 /* LaunchScreen.storyboard */; };
 		2C9437A81F54C67F00BE16FF /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9437A71F54C67F00BE16FF /* BaseViewController.swift */; };
+		2CAD6A441F558CF2001F3E69 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CAD6A3B1F558CF2001F3E69 /* Alamofire.framework */; };
+		2CAD6A451F558CF2001F3E69 /* Hero.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CAD6A3C1F558CF2001F3E69 /* Hero.framework */; };
+		2CAD6A461F558CF2001F3E69 /* Moya.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CAD6A3D1F558CF2001F3E69 /* Moya.framework */; };
+		2CAD6A471F558CF2001F3E69 /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CAD6A3E1F558CF2001F3E69 /* Realm.framework */; };
+		2CAD6A481F558CF2001F3E69 /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CAD6A3F1F558CF2001F3E69 /* RealmSwift.framework */; };
+		2CAD6A491F558CF2001F3E69 /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CAD6A401F558CF2001F3E69 /* Result.framework */; };
+		2CAD6A4A1F558CF2001F3E69 /* SDWebImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CAD6A411F558CF2001F3E69 /* SDWebImage.framework */; };
+		2CAD6A4B1F558CF2001F3E69 /* SVProgressHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CAD6A421F558CF2001F3E69 /* SVProgressHUD.framework */; };
+		2CAD6A4C1F558CF2001F3E69 /* Unbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CAD6A431F558CF2001F3E69 /* Unbox.framework */; };
 		2CD583A11F54CB1C0013621A /* HomeTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD583A01F54CB1C0013621A /* HomeTabBarViewController.swift */; };
 		2CD583A31F54CB610013621A /* BaseTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD583A21F54CB610013621A /* BaseTabBarViewController.swift */; };
 /* End PBXBuildFile section */
@@ -26,6 +35,15 @@
 		2C075C7F1F5340C900E15692 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2C075C811F5340C900E15692 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2C9437A71F54C67F00BE16FF /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		2CAD6A3B1F558CF2001F3E69 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
+		2CAD6A3C1F558CF2001F3E69 /* Hero.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Hero.framework; path = Carthage/Build/iOS/Hero.framework; sourceTree = "<group>"; };
+		2CAD6A3D1F558CF2001F3E69 /* Moya.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Moya.framework; path = Carthage/Build/iOS/Moya.framework; sourceTree = "<group>"; };
+		2CAD6A3E1F558CF2001F3E69 /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Realm.framework; path = Carthage/Build/iOS/Realm.framework; sourceTree = "<group>"; };
+		2CAD6A3F1F558CF2001F3E69 /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RealmSwift.framework; path = Carthage/Build/iOS/RealmSwift.framework; sourceTree = "<group>"; };
+		2CAD6A401F558CF2001F3E69 /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Result.framework; path = Carthage/Build/iOS/Result.framework; sourceTree = "<group>"; };
+		2CAD6A411F558CF2001F3E69 /* SDWebImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDWebImage.framework; path = Carthage/Build/iOS/SDWebImage.framework; sourceTree = "<group>"; };
+		2CAD6A421F558CF2001F3E69 /* SVProgressHUD.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SVProgressHUD.framework; path = Carthage/Build/iOS/SVProgressHUD.framework; sourceTree = "<group>"; };
+		2CAD6A431F558CF2001F3E69 /* Unbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Unbox.framework; path = Carthage/Build/iOS/Unbox.framework; sourceTree = "<group>"; };
 		2CD583A01F54CB1C0013621A /* HomeTabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTabBarViewController.swift; sourceTree = "<group>"; };
 		2CD583A21F54CB610013621A /* BaseTabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTabBarViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -35,6 +53,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CAD6A441F558CF2001F3E69 /* Alamofire.framework in Frameworks */,
+				2CAD6A451F558CF2001F3E69 /* Hero.framework in Frameworks */,
+				2CAD6A461F558CF2001F3E69 /* Moya.framework in Frameworks */,
+				2CAD6A471F558CF2001F3E69 /* Realm.framework in Frameworks */,
+				2CAD6A481F558CF2001F3E69 /* RealmSwift.framework in Frameworks */,
+				2CAD6A491F558CF2001F3E69 /* Result.framework in Frameworks */,
+				2CAD6A4A1F558CF2001F3E69 /* SDWebImage.framework in Frameworks */,
+				2CAD6A4B1F558CF2001F3E69 /* SVProgressHUD.framework in Frameworks */,
+				2CAD6A4C1F558CF2001F3E69 /* Unbox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +71,7 @@
 		2C075C691F5340C800E15692 = {
 			isa = PBXGroup;
 			children = (
+				2CAD6A3A1F558CF2001F3E69 /* Frameworks */,
 				2C075C731F5340C900E15692 /* Products */,
 				2C075C741F5340C900E15692 /* StarkillerStore */,
 			);
@@ -65,6 +93,22 @@
 				2CD583961F54C95B0013621A /* Supporting Files */,
 			);
 			path = StarkillerStore;
+			sourceTree = "<group>";
+		};
+		2CAD6A3A1F558CF2001F3E69 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2CAD6A3B1F558CF2001F3E69 /* Alamofire.framework */,
+				2CAD6A3C1F558CF2001F3E69 /* Hero.framework */,
+				2CAD6A3D1F558CF2001F3E69 /* Moya.framework */,
+				2CAD6A3E1F558CF2001F3E69 /* Realm.framework */,
+				2CAD6A3F1F558CF2001F3E69 /* RealmSwift.framework */,
+				2CAD6A401F558CF2001F3E69 /* Result.framework */,
+				2CAD6A411F558CF2001F3E69 /* SDWebImage.framework */,
+				2CAD6A421F558CF2001F3E69 /* SVProgressHUD.framework */,
+				2CAD6A431F558CF2001F3E69 /* Unbox.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		2CD583921F54C8D90013621A /* Controllers */ = {
@@ -166,7 +210,6 @@
 				2CD583A21F54CB610013621A /* BaseTabBarViewController.swift */,
 				2C9437A71F54C67F00BE16FF /* BaseViewController.swift */,
 			);
-			name = Base;
 			path = Base;
 			sourceTree = "<group>";
 		};
@@ -175,7 +218,6 @@
 			children = (
 				2CD583A01F54CB1C0013621A /* HomeTabBarViewController.swift */,
 			);
-			name = Home;
 			path = Home;
 			sourceTree = "<group>";
 		};
@@ -189,6 +231,7 @@
 				2C075C6E1F5340C800E15692 /* Sources */,
 				2C075C6F1F5340C800E15692 /* Frameworks */,
 				2C075C701F5340C800E15692 /* Resources */,
+				2CAD6A4D1F558CFF001F3E69 /* Carthage */,
 			);
 			buildRules = (
 			);
@@ -245,6 +288,32 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2CAD6A4D1F558CFF001F3E69 /* Carthage */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/SVProgressHUD.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Unbox.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/SDWebImage.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Alamofire.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Moya.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Result.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Hero.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Realm.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RealmSwift.framework",
+			);
+			name = Carthage;
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2C075C6E1F5340C800E15692 /* Sources */ = {
@@ -383,6 +452,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = HATQPXT843;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = "StarkillerStore/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bferrari.StarkillerStore;
@@ -396,6 +469,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = HATQPXT843;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = "StarkillerStore/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bferrari.StarkillerStore;
